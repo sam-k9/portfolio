@@ -27,10 +27,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TOKEN_ID,
+        `${import.meta.env.VITE_SERVICE_ID}`,
+        `${import.meta.env.VITE_TOKEN_ID}`,
         formRef.current,
-        import.meta.env.VITE_PUBLIC_ID
+        `${import.meta.env.VITE_PUBLIC_ID}`
       )
       .then(
         () => {
