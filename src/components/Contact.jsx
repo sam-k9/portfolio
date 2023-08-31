@@ -58,7 +58,6 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          netlify
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
