@@ -123,25 +123,25 @@ const experiences = [
     iconBg: "#383E56",
     date: "At your Company",
   },
-  {
-    title: "Coming Soon...",
-    icon: logo,
-    iconBg: "#E6DEDD",
-    date: "At your Company",
-  },
-  {
-    title: "Coming Soon...",
-    icon: logo,
-    iconBg: "#383E56",
-    date: "At your Company",
-  },
-  {
-    title: "Coming Soon...",
-    company_name: "Meta",
-    icon: logo,
-    iconBg: "#E6DEDD",
-    date: "At your Company",
-  },
+  // {
+  //   title: "Coming Soon...",
+  //   icon: logo,
+  //   iconBg: "#E6DEDD",
+  //   date: "At your Company",
+  // },
+  // {
+  //   title: "Coming Soon...",
+  //   icon: logo,
+  //   iconBg: "#383E56",
+  //   date: "At your Company",
+  // },
+  // {
+  //   title: "Coming Soon...",
+  //   company_name: "Meta",
+  //   icon: logo,
+  //   iconBg: "#E6DEDD",
+  //   date: "At your Company",
+  // },
 ];
 
 const testimonials = [
