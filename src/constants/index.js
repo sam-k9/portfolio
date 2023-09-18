@@ -17,12 +17,12 @@ import {
   prisma,
   jobster,
   comfySloth,
-  mixMaster,
   threejs,
   logo,
   user1,
   user2,
   user3,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -173,24 +173,58 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AI-Companion",
+    description:
+      "An AI powered web Application which lets you create your own fictional AI characters and chat with them.",
+    tags: [
+      {
+        name: "Next js.",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React js.",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ai,
+    source_code_link: "https://github.com/sam-k9/companion-ai/",
+    live_link: "https://ai-companionby.vercel.app/",
+  },
+  {
     name: "Jobster",
     description:
       "Web-based platform that allows users to keep track ,maintain records of their job application with data analysis charts.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "redux-toolkit",
+        name: "Redux-toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "styled-components",
+        name: "Styled-components",
         color: "pink-text-gradient",
       },
       {
-        name: "react-router",
+        name: "React-router",
         color: "blue-text-gradient",
       },
     ],
@@ -204,15 +238,15 @@ const projects = [
       " E-Commerce Web application that enables users to browse various products,sort them based on  various criteria.Integrated Stripe Payment gateway and Auth0 authentication",
     tags: [
       {
-        name: "react",
+        name: "React js.",
         color: "blue-text-gradient",
       },
       {
-        name: "react-router",
+        name: "React-router",
         color: "green-text-gradient",
       },
       {
-        name: "auth0-react",
+        name: "Auth0-react",
         color: "pink-text-gradient",
       },
     ],
@@ -220,28 +254,6 @@ const projects = [
     source_code_link:
       "https://github.com/sam-k9/temp-react-comfysloth/tree/main",
     live_link: "https://comfy-slothby.netlify.app/",
-  },
-  {
-    name: "Mix Master",
-    description:
-      "A platform that allows users to browse among various mocktails and know more details about it and subscribe to newsletter. Searched results are cached for faster results",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-query",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mixMaster,
-    source_code_link: "https://github.com/sam-k9/MixMaster",
-    live_link: "https://mixmasterby.netlify.app/",
   },
 ];
 

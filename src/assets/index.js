@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import jobster from "./jobster.png";
 import comfySloth from "./comfySloth.png";
-import mixMaster from "./mixMaster.png";
+import ai from "./ai.png";
 
 import user1 from "./user1.svg";
 import user2 from "./user2.svg";
@@ -55,7 +55,7 @@ export {
   threejs,
   jobster,
   comfySloth,
-  mixMaster,
+  ai,
   user1,
   user2,
   user3,
